@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="308.7612359841165"
+   height="304.915625"
+   viewBox="0 0 106 106"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <!-- Background Pattern: Small Black Dots -->
+  <defs>
+    <pattern id="smallDots" width="5" height="5" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.5" fill="#000000" />
+    </pattern>
+    <!-- Clip Path to constrain dots inside the circle -->
+    <clipPath id="circleClip">
+      <circle cx="53" cy="53" r="50" />
+    </clipPath>
+  </defs>
+  
+  <!-- Yellow Background Circle with Dot Pattern -->
+  <circle cx="53" cy="53" r="50" fill="#ffea00" />
+  <!-- Applying Dot Pattern with Clipping -->
+  <rect width="106" height="106" fill="url(#smallDots)" clip-path="url(#circleClip)" />
+
+  <!-- Text "HA" in White -->
+  <text
+    x="50%"
+    y="50%"
+    dominant-baseline="middle"
+    text-anchor="middle"
+    font-size="50"
+    font-family="Arial"
+    font-weight="bold"
+    fill="#ffffff">HA</text>
+</svg>
